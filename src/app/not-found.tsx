@@ -10,11 +10,11 @@ export default function NotFound() {
 
   useEffect(() => {
     setTimeout(() => {
-      router.push("/pages/main")
+      // router.push("/pages/main")
     }, 5000)
   },[router])
   return (
-    <div className={`${styles.body}`}>
+    <div className={`${styles.body} `}>
       <div className="flex justify-center items-center">
         <Image
           src="/404.jpg"

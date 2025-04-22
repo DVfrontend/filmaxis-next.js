@@ -25,11 +25,11 @@ function Navbar() {
   const pathname = usePathname();
   return (
     <nav>
-      <div className="bg-black p-4 border-b-1 border-gray-800 text-white fixed top-0 right-0 left-0 flex justify-between">
+      <div className="p-4 border-b-1 text-white fixed top-0 right-0 left-0 flex justify-between">
         <div>
         {nav.map(({ id, title, path }) => (
           <Link key={id} href={path} className='m-3'>
-            <span className={pathname === path ? "color-blue" : undefined}>
+            <span className={pathname === path ? "text-blue-500" : undefined}>
               {title}
             </span>
           </Link>
