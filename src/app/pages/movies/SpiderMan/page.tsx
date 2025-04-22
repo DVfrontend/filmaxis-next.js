@@ -3,6 +3,7 @@ export default function SpiderMan() {
     <>
       {/* <Navbar />
       <Footer /> */}
+      <h1>fvj</h1>
     </>
   )
 }

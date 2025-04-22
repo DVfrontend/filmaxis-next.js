@@ -2,7 +2,7 @@
 // import styles from "../ui/first.module.scss";
 // import Button from "../components/button";
 
-export default function First() {
+export default function Home() {
   return (
     <>
       <>
@@ -14,37 +14,36 @@ export default function First() {
         <br></br>
 
         <h2 className="text-2xl m-3">
-          Cinema Web — your personal movie portal where dreams of an endless
-          movie marathon become a reality! 🎬
+          Cinema Web — твой личный кино-портал, где мечты о бесконечном
+          киномарафоне становятся реальностью! 🎬
         </h2>
         <br></br>
         <ul>
           <li>
-            ✨ Over 1000 movies in the collection, available in stunning 4K
-            quality — from cult classics to the latest releases.
+            ✨ Более 1000 фильмов в коллекции, доступных в потрясающем качестве
+            4K — от культовой классики до новинок.
           </li>
           <li>
-            🍿 Convenient search by genre, rating, and release year: find
-            exactly what you need in just a few clicks.
+            🍿 Удобный поиск по жанру, рейтингу и году выпуска: найди именно то,
+            что нужно, всего за пару кликов.
           </li>
           <li>
-            🎥 Exclusive selections from film critics and recommendations based
-            on your preferences.
+            🎥 Эксклюзивные подборки от кинокритиков и рекомендации на основе
+            твоих предпочтений.
           </li>
           <li>
-            📱 Watch anywhere: on your TV, laptop, or smartphone — synchronized
-            across all devices.
+            📱 Смотри где угодно: на телевизоре, ноутбуке или смартфоне —
+            синхронизация на всех устройствах.
           </li>
           <li>
-            🌟 Weekly updates: new movies, trailers, and interesting facts about
-            the film industry.
+            🌟 Еженедельные обновления: новые фильмы, трейлеры и интересные
+            факты о киноиндустрии.
           </li>
         </ul>
         <br></br>
         <p>
-          Cinema Web is not just a website — it is your ticket to the world of
-          cinema, where every frame is an emotion and every movie is a story.
-          🎟️✨
+          Cinema Web — это не просто сайт, это твой билет в мир кино, где каждый
+          кадр — это эмоция, а каждый фильм — история. 🎟️✨
         </p>
 
         {/* <Link href="ru/pages/home" className={styles.button}>Русский</Link>

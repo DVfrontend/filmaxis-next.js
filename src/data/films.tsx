@@ -2,11 +2,11 @@
 
 import data from "@/data/films.json";
 import { useEffect, useState } from "react";
-import type { Films } from "@/types";
+import type { Film } from "@/types";
 import Link from "next/link";
 
 function FIlms() {
-  const [films, setFIlms] = useState<Films[]>([]);
+  const [films, setFIlms] = useState<Film[]>([]);
 
   useEffect(() => {
     setFIlms(data);
@@ -15,10 +15,10 @@ function FIlms() {
   return (
     <div>
       <h1 className="text-3xl font-bold">Films</h1>
-      <ul className="list-disc">
+      <ul>
         {films.map((film) => (
           <li key={film.id}>
-            <Link href={"/movies/FAF"}><b>{film.name}</b> — {film.description}</Link>
+            <Link href={film.href}><span className="font-bold flex justify-center m-2 text-xl">{film.name}</span>{film.description}</Link>
           </li>
         ))}
       </ul>
