@@ -25,7 +25,7 @@ function Navbar() {
   const pathname = usePathname();
   return (
     <nav>
-      <div className="p-4 border-b-1 text-white fixed top-0 right-0 left-0 flex justify-between">
+      <div className="p-4 border-b  text-white fixed top-0 right-0 left-0 flex justify-between backdrop-blur-md">
         <div>
         {nav.map(({ id, title, path }) => (
           <Link key={id} href={path} className='m-3'>

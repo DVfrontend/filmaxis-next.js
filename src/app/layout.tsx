@@ -11,7 +11,7 @@ export default function RootLayout({
       <head>
         <title>Cinema Web </title>
       </head>
-      <body className="bg-gray-950">
+      <body>
           <Layout>
             <div className="container mx-auto mt-10">{children}</div>
           </Layout>
@@ -19,3 +19,4 @@ export default function RootLayout({
     </html>
   );
 }
+// использовать соннер
