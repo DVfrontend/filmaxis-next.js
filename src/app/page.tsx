@@ -52,6 +52,7 @@ export default function Home() {
         {/* <Link to="/pages/home" className={styles.button}>
           Start watching
         </Link> подтвурдить*/}
+        {/*сделать генератор страницы сайта. то есть будт паге и там .map*/}
       </>
     </>
   );
