@@ -9,3 +9,10 @@ export type Film = {
 export type LayoutProps = {
   children: React.ReactNode;
 }
+
+export type Socials = {
+  name: string,
+  id: number,
+  url: string,
+  logo?: string
+}

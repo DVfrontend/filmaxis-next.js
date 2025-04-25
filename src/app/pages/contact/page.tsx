@@ -4,8 +4,7 @@
 export default function Contact() {
   return (
     <>
-      {/* <Navbar />
-      <Footer /> */}
+      <h1 className="text-4xl font-semibold"></h1>
     </>
   );
 }

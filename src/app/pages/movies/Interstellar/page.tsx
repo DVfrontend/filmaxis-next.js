@@ -1,8 +1,7 @@
 export default function Interstellar() {
   return (
     <>
-      {/* <Navbar />
-      <Footer /> */}
+      <h1 className="text-4xl font-semibold"></h1>
     </>
   )
 }

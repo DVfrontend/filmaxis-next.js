@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <>
         <div className="container mx-auto mt-3">
-          <h1 style={{ color: "white" }} className="text-4xl mt-3">
+          <h1 style={{ color: "white" }} className="text-4xl font-semibold">
             Cinema Web
           </h1>
         </div>

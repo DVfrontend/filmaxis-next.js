@@ -10,7 +10,7 @@ export default function NotFound() {
 
   useEffect(() => {
     setTimeout(() => {
-      // router.push("/pages/main")
+      router.push("/pages/main")
     }, 5000)
   },[router])
   return (
@@ -25,8 +25,8 @@ export default function NotFound() {
         ></Image>
       </div>
       <div>
-        <h1 className="text-2xl">Not found – Error 404!</h1>
-        <h2 className="text-xl">Within 5 seconds you will automatically return to the main page</h2>
+        <h1 className="text-2xl">Ошибка 404!</h1>
+        <h2 className="text-xl">В течении 5 секунд вы вернетесь на главную страницу</h2>
       </div>
     </div>
   );

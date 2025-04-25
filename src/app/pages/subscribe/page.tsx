@@ -4,7 +4,7 @@ export default function Subscribe() {
   return (
     <>
       <main className="container mx-auto mt-13">
-        <h1 className="text-4xl md:mt-13">Офромить подписку на сайт</h1>
+      <h1 className="text-4xl font-semibold">Офромить подписку на сайт</h1>
         <section className="flex justify-around">
           <div className="border rounded-sm px-4 py-2">
             <h2>Тариф одноразовый </h2>
