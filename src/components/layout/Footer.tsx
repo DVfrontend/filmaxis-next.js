@@ -8,7 +8,8 @@ export default function Footer() {
         {/* сделать при нажатии на кнопку выходит зарегаться */}
         
       </article>
-      <p className="text-center m-2">&copy; {new Date().getDate()} / {new Date().getMonth() + 1} / {new Date().getFullYear()}</p>
+      <p className="text-center m-2">{new Date().getDate()} / {new Date().getMonth() + 1} / {new Date().getFullYear()}</p>
+      <p>&copy;DV product</p>
     </footer>
   );
 }

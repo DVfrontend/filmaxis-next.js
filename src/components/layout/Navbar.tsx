@@ -1,12 +1,7 @@
-// import styles from "../ui/navbar.module.scss";
-// import Form from "./form";
 'use client'
 
-// import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
-// import styles from '../ui/Navbar.module.scss';
-
 type Nav = {
   id: number;
   title: string;
