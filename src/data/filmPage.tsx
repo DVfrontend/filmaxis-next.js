@@ -13,7 +13,7 @@ export default function FilmPage() {
   return (
     <>
       {films.map((film) => (
-          <div key={film.id}>
+        <div key={film.id}>
           <Image src={film.poster} alt={film.name} width={200} height={200} className='border rounded-xl'/>
           <p>{film.fulldescription}</p>
           </div>

@@ -1,5 +1,4 @@
-// import styles from '../ui/about.module.scss';
-// import SocialMedia from "@/data/socialMedia"
+
 import Link from "next/link"
 
 export default function About() {
@@ -12,7 +11,7 @@ export default function About() {
       <p>Я верю в силу чистого кода, продуманную архитектуру и грамотную работу с Git. Люблю разбираться в сложных задачах, оптимизировать процессы и доводить результат до блеска.</p>
       <p>Разрабатываю проекты под личным брендом DV product — это мой способ объединить качество, стиль и ответственность в одном имени.</p>
       
-      <h2>Чтобы связаться со мной перейдите на вкладку <Link href={'./pages/contact'}>контакт</Link></h2>
+      <h2>Чтобы связаться со мной перейдите на вкладку <Link href={'./contact'}>контакт</Link></h2>
     </>
   )
 }

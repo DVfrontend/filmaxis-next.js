@@ -9,10 +9,10 @@ type Nav = {
 };
 
 const nav: Nav[] = [
-  { id: 1, title: "Главная", path: '/pages/main' },
-  { id: 2, title: "Контакт", path: '/pages/contact' },
-  { id: 3, title: "Про меня", path: '/pages/about' },
-  { id: 4, title: "Подписаться", path: '/pages/subscribe' },
+  { id: 1, title: "Главная", path: '/main' },
+  { id: 2, title: "Контакт", path: '/contact' },
+  { id: 3, title: "Про меня", path: '/about' },
+  { id: 4, title: "Подписаться", path: '/subscribe' },
 ];
 
 function Navbar() {

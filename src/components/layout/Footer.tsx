@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="p-5 border-t  text-white bottom-0 left-0 right-0 flex justify-between">
       <article className="flex justify-between items-center">
-        <Link href="/pages/subscribe" className="border rounded-sm my-2 px-4 py-2 duration-700 hover:text-black hover:shadow-white/50 hover:shadow-lg hover:border-white hover:bg-white/85">Оформить подписку</Link>
+        <Link href="/subscribe" className="border rounded-sm my-2 px-4 py-2 duration-700 hover:text-black hover:shadow-white/50 hover:shadow-lg hover:border-white hover:bg-white/85">Оформить подписку</Link>
         {/* сделать при нажатии на кнопку выходит зарегаться */}
         
       </article>

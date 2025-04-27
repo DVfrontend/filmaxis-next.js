@@ -4,8 +4,9 @@ export type Film = {
   description: string;
   href: string;
   poster: string,
-  fulldescription?: string;
+  fulldescription: string;
   imgId?: number;
+  posterId?: string
 }
 
 
