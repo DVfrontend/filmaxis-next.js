@@ -10,9 +10,9 @@ type Nav = {
 
 const nav: Nav[] = [
   { id: 1, title: "Главная", path: '/main' },
-  { id: 2, title: "Контакт", path: '/contact' },
-  { id: 3, title: "Про меня", path: '/about' },
-  { id: 4, title: "Подписаться", path: '/subscribe' },
+  { id: 2, title: "Подписаться", path: '/subscribe' },
+  { id: 3, title: "Контакт", path: '/contact' },
+  { id: 4, title: "Про меня", path: '/about' },
 ];
 
 function Navbar() {

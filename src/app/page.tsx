@@ -1,4 +1,5 @@
 import styles from './page.module.scss'
+import Carousel from '@/components/layout/Carousel';
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
           Cinema Web — это не просто сайт, это твой билет в мир кино, где каждый
           кадр — это эмоция, а каждый фильм — история. 🎟️✨
         </p>
+        <Carousel />
       </>
     </>
   );

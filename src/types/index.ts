@@ -9,6 +9,12 @@ export type Film = {
   posterId?: string
 }
 
+export type Slides = {
+  id: string,
+  prev: string,
+  next: string,
+  content: string
+}
 
 export type LayoutProps = {
   children: React.ReactNode;
