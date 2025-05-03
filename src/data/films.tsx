@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import data from "@/data/films.json";
 import { useEffect, useState } from "react";
@@ -16,17 +16,25 @@ function FIlms() {
   return (
     <div>
       <h1 className="text-4xl font-semibold">Все Фильмы</h1>
-        {films.map((films) => (
-          <Link href={films.href} key={films.id}>
+      {films.map((films) => (
+        <Link href={films.href} key={films.id}>
           <div className="flex items-center my-2">
-            <Image src={films.poster} width={200} height={200} alt="film logo" className="border rounded-xl" />
+            <Image
+              src={films.poster}
+              width={200}
+              height={200}
+              alt="film logo"
+              className="border rounded-xl"
+            />
             <div className="m-2 p-2">
-              <span className="font-bold flex justify-center m-2 text-xl">{films.name}</span>{films.description}
+              <span className="font-bold flex justify-center m-2 text-xl">
+                {films.name}
+              </span>
+              {films.description}
             </div>
           </div>
         </Link>
-        
-        ))}
+      ))}
     </div>
   );
 }

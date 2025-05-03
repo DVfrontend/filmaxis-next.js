@@ -1,4 +1,4 @@
-import FilmPage from "@/data/filmPage"
+import FilmPage from "@/data/filmPage";
 
 export default function SpiderMan() {
   return (
@@ -6,5 +6,5 @@ export default function SpiderMan() {
       <h1 className="text-4xl font-semibold"></h1>
       <FilmPage />
     </>
-  )
+  );
 }

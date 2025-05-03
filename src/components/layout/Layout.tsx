@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import type { LayoutProps } from "@/types"; 
+import Navbar from "./navbar";
+import Footer from "./footer";
+import type { LayoutProps } from "@/types";
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (

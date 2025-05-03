@@ -1,8 +1,8 @@
-'use client'
-import data from './films.json';
-import type { Film } from '@/types';
+"use client";
+import data from "./films.json";
+import type { Film } from "@/types";
 import { useEffect, useState } from "react";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function FilmPage() {
   const [films, setFIlms] = useState<Film[]>([]);
@@ -14,11 +14,18 @@ export default function FilmPage() {
     <>
       {films.map((film) => (
         <div key={film.id}>
-          <Image src={film.poster} alt={film.name} width={200} height={200} className='border rounded-xl'/>
+          <Image
+            src={film.poster}
+            alt={film.name}
+            width={200}
+            height={200}
+            className="border rounded-xl"
+          />
+          <h1 className="text-2xl">{film.name}</h1>
           <p>{film.fulldescription}</p>
-          </div>
-        
+          <iframe src={film.trailer} />
+        </div>
       ))}
     </>
-  )
+  );
 }

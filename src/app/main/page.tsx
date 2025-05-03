@@ -1,12 +1,12 @@
 "use client";
 
-import Films from '@/data/films';
+import Films from "@/data/films";
 
 export default function Main() {
   return (
     <>
       <div className="grid ">
-      <Films />
+        <Films />
       </div>
     </>
   );
