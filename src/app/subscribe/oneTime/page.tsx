@@ -1,7 +1,3 @@
 export default function OneTime() {
-  return (
-    <>
-      
-    </>
-  )
+  return <></>;
 }

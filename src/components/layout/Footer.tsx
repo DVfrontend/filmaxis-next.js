@@ -64,7 +64,8 @@ export default function Footer() {
       </div>
 
       <p className="text-center">
-        {new Date().getDate()} / {new Date().getMonth() + 1} / {new Date().getFullYear()}
+        {new Date().getDate()} / {new Date().getMonth() + 1} /{" "}
+        {new Date().getFullYear()}
       </p>
       <p className="text-center">&copy; DV product</p>
     </footer>

@@ -18,16 +18,25 @@ export default function FilmPage() {
     <>
       {filteredFilms.map((film) => (
         <div key={film.id}>
-          <Image
-            src={film.poster}
-            alt={film.name}
-            width={200}
-            height={200}
-            className="border rounded-xl"
+          <div className="flex justify-evenly">
+            <Image
+              src={film.poster}
+              alt={film.name}
+              width={200}
+              height={200}
+              className="border rounded-xl"
+            />
+            <h1 className="text-2xl">{film.name}</h1>
+            <p>{film.fulldescription}</p>
+          </div>
+          <h3 className="text-xl m-2">Трейлер фильма</h3>
+          <iframe
+            src={film.trailer}
+            width="560"
+            height="315"
+            className="aspect-video rounded-xl"
+            allowFullScreen
           />
-          <h1 className="text-2xl">{film.name}</h1>
-          <p>{film.fulldescription}</p>
-          <iframe src={film.trailer} />
         </div>
       ))}
     </>

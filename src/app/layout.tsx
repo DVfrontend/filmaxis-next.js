@@ -1,5 +1,6 @@
 import "@/styles/globals.scss";
 import Layout from "@/components/layout/layout";
+import { Toaster } from "sonner";
 
 export default function RootLayout({
   children,
@@ -16,6 +17,7 @@ export default function RootLayout({
         <Layout>
           <div className="container mx-auto mt-10">{children}</div>
         </Layout>
+        <Toaster richColors position="top-right" />
       </body>
     </html>
   );

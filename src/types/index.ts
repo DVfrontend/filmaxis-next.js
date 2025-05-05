@@ -21,13 +21,13 @@ export type Socials = {
 };
 
 export type Subscribes = {
-  id: number,
-  name: string,
-  price: number,
-  currency: string,
-  description: string
-  features: string[],
-  billingCycle: string,
-  class: string,
-  href: string
-}
+  id: number;
+  name: string;
+  price: number;
+  currency: string;
+  description: string;
+  features: string[];
+  billingCycle: string;
+  class: string;
+  href: string;
+};
