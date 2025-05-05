@@ -1,4 +1,4 @@
-import "./globals.scss";
+import "@/styles/globals.scss";
 import Layout from "@/components/layout/layout";
 
 export default function RootLayout({
@@ -20,4 +20,3 @@ export default function RootLayout({
     </html>
   );
 }
-// использовать соннер

@@ -12,24 +12,12 @@
       "Доступ к новым релизам",
       "Просмотр на 2 устройствах одновременно"
     ],
-    "billingCycle": "monthly"
+    "billingCycle": "monthly",
+    "class": "bg-[#C0C0C0] text-black py-2 px-4 rounded-lg font-bold hover:bg-[#b0b0b0] transition",
+    "href": "/subscribe/monthly"
   },
   {
     "id": 2,
-    "name": "Одноразовый доступ на 24 часа",
-    "price": 14.99,
-    "currency": "$USD",
-    "description": "Разовый платеж за доступ на 24 часа. Без подписки и автопродления.",
-    "features": [
-      "Неограниченный просмотр ",
-      "Поддержка HD ",
-      "Отсутствие рекламы ",
-      "Доступ к новым релизам"
-    ],
-    "billingCycle": "oneTime"
-  },
-  {
-    "id": 3,
     "name": "Годовая подписка на 365 дней",
     "price": 99,
     "currency": "$USD",
@@ -46,6 +34,25 @@
       "Бесплатные билеты на онлайн-мероприятия",
       "Подарочный код для друга"
     ],
-    "billingCycle": "yearly"
+    "billingCycle": "yearly",
+    "class": "bg-[#FFD700] text-black py-2 px-4 rounded-lg font-bold hover:bg-[#e6c200] transition",
+    "href": "/subscribe/yearly"
+  },
+  {
+    "id": 3,
+    "name": "Одноразовый доступ на 24 часа",
+    "price": 14.99,
+    "currency": "$USD",
+    "description": "Разовый платеж за доступ на 24 часа. Без подписки и автопродления.",
+    "features": [
+      "Неограниченный просмотр ",
+      "Поддержка HD ",
+      "Отсутствие рекламы ",
+      "Доступ к новым релизам"
+    ],
+    "billingCycle": "oneTime",
+    "class": "bg-gray-300 text-black py-2 px-4 rounded-lg font-bold hover:bg-gray-400 transition",
+    "href": "/subscribe/oneTime"
   }
+  
 ]

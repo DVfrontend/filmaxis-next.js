@@ -6,7 +6,6 @@ export type Film = {
   poster: string;
   fulldescription: string;
   imgId?: number;
-  personalId?: string;
   trailer?: string;
 };
 
@@ -28,5 +27,7 @@ export type Subscribes = {
   currency: string,
   description: string
   features: string[],
-  billingCycle: string
+  billingCycle: string,
+  class: string,
+  href: string
 }

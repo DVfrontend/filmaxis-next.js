@@ -5,28 +5,18 @@ body {
   color: white;
   margin: 2;
   padding: 2;
-  transition:
-    background-color 0.9s ease,
-    color 0.9s ease;
   background-color: #1c1c1c;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   text-align: center;
-}
-
-@media screen and (max-width: 768px) {
 }
 
 ul {
   display: flex;
   gap: 2.5rem;
 }
+
 li {
   display: block;
 }

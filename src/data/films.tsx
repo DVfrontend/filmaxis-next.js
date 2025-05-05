@@ -1,6 +1,6 @@
 "use client";
 
-import data from "@/data/films.json";
+import data from "@/data/film.json";
 import { useEffect, useState } from "react";
 import type { Film } from "@/types";
 import Link from "next/link";
