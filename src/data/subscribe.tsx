@@ -4,7 +4,6 @@ import data from "./subscribe.json";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import type { Subscribes } from "@/types";
-import Link from "next/link";
 
 export default function SubscribePage() {
   const [subscribes, setSubscribes] = useState<Subscribes[]>([]);
@@ -23,8 +22,7 @@ export default function SubscribePage() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {subscribes.map((sub) => (
-          <Link
-            href={sub.href}
+          <button
             key={sub.id}
             className={`border rounded-md p-4 flex flex-col justify-between hover:shadow-md transition ${sub.class}`}
             onClick={handleClick}
@@ -46,7 +44,7 @@ export default function SubscribePage() {
             <div className="mt-4 text-center font-bold text-lg">
               {sub.price} {sub.currency}
             </div>
-          </Link>
+          </button>
         ))}
       </div>
     </main>

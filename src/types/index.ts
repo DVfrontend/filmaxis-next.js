@@ -29,5 +29,4 @@ export type Subscribes = {
   features: string[];
   billingCycle: string;
   class: string;
-  href: string;
 };
