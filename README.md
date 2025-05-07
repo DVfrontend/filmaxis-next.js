@@ -1,26 +1,26 @@
-# Cinema Web
+## Filmaxis
 
-Cinema Web is a modern web application for movie enthusiasts, built with React.  
-It allows users to browse movies, view detailed information, and explore the world of cinema with a smooth and responsive design.
 
-## Features
 
-- Browse popular movies
-- View detailed movie pages
-- Responsive and user-friendly interface
-- Built with React and modern web technologies
 
-## Technologies Used
 
-- React
-- JavaScript
-- HTML5
-- CSS3
+Filmaxis is a modern movie platform built with cutting-edge web technologies to deliver high performance, responsiveness, and a great user experience.
 
-## Project Status
+##🚀 Tech Stack
+Next.js — React framework for server-side rendering and static site generation.
 
-The project is currently in development. More features and improvements are coming soon!
+-React — JavaScript library for building user interfaces.
 
----
+-TypeScript — Strongly typed superset of JavaScript.
 
-Feel free to contribute or suggest improvements.
+-Tailwind CSS — Utility-first CSS framework for rapid UI development.
+
+-SASS (SCSS) — Preprocessor for writing clean, maintainable styles.
+
+##✨ Features
+
+View detailed information about movies
+
+Responsive design for all devices
+
+Fast loading thanks to server-side rendering and optimization
