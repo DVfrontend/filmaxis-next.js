@@ -1,8 +1,8 @@
-## Filmaxis
+## Filmaxis ##
 
 Filmaxis is a modern movie platform built with cutting-edge web technologies to deliver high performance, responsiveness, and a great user experience.
 
-##🚀 Tech Stack
+## 🚀 Tech Stack ##
 Next.js — React framework for server-side rendering and static site generation.
 
 -React — JavaScript library for building user interfaces.
@@ -13,7 +13,7 @@ Next.js — React framework for server-side rendering and static site generation
 
 -SASS (SCSS) — Preprocessor for writing clean, maintainable styles.
 
-##✨ Features
+## ✨ Features ##
 
 View detailed information about movies
 
