@@ -1,4 +1,4 @@
-import SubscribePage from "@/data/subscribe";
+import SubscribePage from "@/components/ui/subscribe";
 
 export default function Subscribe() {
   return (

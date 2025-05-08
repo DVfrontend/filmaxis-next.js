@@ -1,5 +1,5 @@
 import styles from "./page.module.scss";
-import Bg from "@/components/ui/Bg";
+import Bg from "@/components/ui/bg";
 
 export default function Home() {
   return (

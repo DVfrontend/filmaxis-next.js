@@ -1,6 +1,6 @@
 "use client";
 
-import data from "./subscribe.json";
+import data from "../../data/subscribe.json";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import type { Subscribes } from "@/types";

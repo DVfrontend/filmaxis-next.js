@@ -1,6 +1,6 @@
 "use client";
 
-import Films from "@/data/films";
+import Films from "@/components/ui/films";
 
 export default function Main() {
   return (
