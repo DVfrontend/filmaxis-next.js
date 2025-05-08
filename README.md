@@ -1,4 +1,4 @@
-## Filmaxis
+## Filmaxis ##
 
 Filmaxis is a modern movie platform built with cutting-edge web technologies to deliver high performance, responsiveness, and a great user experience.
 
