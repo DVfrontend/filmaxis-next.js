@@ -35,13 +35,16 @@ export default function SpiderMan() {
 
           <div className="mt-8">
             <h3 className="text-2xl font-semibold mb-4">Трейлер фильма</h3>
-            <iframe
-              src={film.trailer}
-              width="100%"
-              height="300"
-              className="rounded-xl sm:w-24"
-              allowFullScreen
-            />
+            <div
+              className="relative w-full"
+              style={{ paddingBottom: "56.25%" }}
+            >
+              <iframe
+                src={film.trailer}
+                className="absolute top-0 left-0 w-full h-full rounded-xl"
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
       ))}
