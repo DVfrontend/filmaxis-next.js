@@ -2,6 +2,7 @@ import "@/styles/globals.scss";
 import Layout from "@/components/layout/layout";
 import { Toaster } from "sonner";
 
+
 export default function RootLayout({
   children,
 }: Readonly<{

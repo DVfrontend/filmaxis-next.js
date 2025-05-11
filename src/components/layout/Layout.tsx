@@ -1,4 +1,4 @@
-import React from "react";
+import { memo } from 'react';
 import Navbar from "./navbar";
 import Footer from "./footer";
 import type { LayoutProps } from "@/types";
@@ -15,4 +15,4 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   );
 };
 
-export default Layout;
+export default memo(Layout);
