@@ -5,8 +5,9 @@ import { useEffect, useState } from "react";
 import type { Film } from "@/types/filmTypes";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
-function FIlms() {
+function Films() {
   const [films, setFIlms] = useState<Film[]>([]);
 
   useEffect(() => {
@@ -18,7 +19,10 @@ function FIlms() {
       <h1 className="text-4xl font-semibold">Все Фильмы</h1>
       {films.map((films) => (
         <Link href={films.href} key={films.id}>
-          <div className="flex items-center my-2">
+          <motion.div className="flex items-center my-2"
+              initial={{ opacity: 0, x: -40 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}>
             <Image
               src={films.poster}
               width={200}
@@ -32,11 +36,11 @@ function FIlms() {
               </span>
               {films.description}
             </div>
-          </div>
+          </motion.div>
         </Link>
       ))}
     </div>
   );
 }
 
-export default FIlms;
+export default Films;
