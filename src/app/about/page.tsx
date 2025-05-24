@@ -1,6 +1,6 @@
 "use client";
 
-import type { Socials } from "@/types";
+import type { Socials } from "@/types/socialMediaTypes";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";

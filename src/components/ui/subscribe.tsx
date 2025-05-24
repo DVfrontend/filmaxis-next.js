@@ -3,7 +3,17 @@
 import data from "../../data/subscribe.json";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
-import type { Subscribes } from "@/types";
+
+type Subscribes = {
+  id: number;
+  name: string;
+  price: number;
+  currency: string;
+  description: string;
+  features: string[];
+  billingCycle: string;
+  class: string;
+};
 
 export default function SubscribePage() {
   const [subscribes, setSubscribes] = useState<Subscribes[]>([]);

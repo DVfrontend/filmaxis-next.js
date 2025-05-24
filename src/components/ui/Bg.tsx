@@ -4,18 +4,18 @@ import styles from "@/styles/common/bg.module.scss";
 import React, { useEffect, useState } from "react";
 
 const images: string[] = [
-  "/images/films/another/image.png",
-  "/images/films/another/image-copy.png",
-  "/images/films/another/image-copy-1.png",
-  "/images/films/another/image-copy-2.png",
-  "/images/films/another/image-copy-3.png",
-  "/images/films/another/image-copy-4.png",
-  "/images/films/another/image-copy-5.png",
-  "/images/films/another/image-copy-6.png",
-  "/images/films/another/image-copy-7.png",
-  "/images/films/another/image-copy-8.png",
-  "/images/films/another/image-copy-9.png",
-  "/images/films/another/image-copy-10.png",
+  "/images/another/image.png",
+  "/images/another/image-copy.png",
+  "/images/another/image-copy-1.png",
+  "/images/another/image-copy-2.png",
+  "/images/another/image-copy-3.png",
+  "/images/another/image-copy-4.png",
+  "/images/another/image-copy-5.png",
+  "/images/another/image-copy-6.png",
+  "/images/another/image-copy-7.png",
+  "/images/another/image-copy-8.png",
+  "/images/another/image-copy-9.png",
+  "/images/another/image-copy-10.png",
 ];
 
 type Bg = {

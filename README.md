@@ -1,19 +1,22 @@
-## Filmaxis ##
+## Filmaxis
 
 Filmaxis is a modern movie platform built with cutting-edge web technologies to deliver high performance, responsiveness, and a great user experience.
 
-## 🚀 Tech Stack ##
-Next.js — React framework for server-side rendering and static site generation.
+## 🚀 Tech Stack
 
--React — JavaScript library for building user interfaces.
+Next.js — React framework for server-side rendering (SSR) and static site generation (SSG).
 
--TypeScript — Strongly typed superset of JavaScript.
+- React — JavaScript library for building user interfaces.
 
--Tailwind CSS — Utility-first CSS framework for rapid UI development.
+- TypeScript — Strongly typed superset of JavaScript for scalable and safer code.
 
--SASS (SCSS) — Preprocessor for writing clean, maintainable styles.
+- Tailwind CSS — Utility-first CSS framework for rapid UI development with minimal custom CSS.
 
-## ✨ Features ##
+- SASS (SCSS) — CSS preprocessor that helps write cleaner and more maintainable styles.
+
+- Framer Motion (motion.js) — Animation library for React to create smooth, powerful, and declarative animations.
+
+## ✨ Features
 
 View detailed information about movies
 

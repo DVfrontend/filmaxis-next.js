@@ -1,6 +1,6 @@
 "use client";
 import data from "@/data/film.json";
-import type { Film } from "@/types";
+import type { Film } from "@/types/filmTypes";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 

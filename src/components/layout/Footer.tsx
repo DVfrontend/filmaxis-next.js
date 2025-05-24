@@ -1,6 +1,6 @@
 "use client";
 
-import type { Socials } from "@/types";
+import type { Socials } from "@/types/socialMediaTypes";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,7 +9,7 @@ const socialsData: Socials[] = [
   {
     id: 1,
     name: "GitHub",
-    url: "https://github.com/Daniel2009Daniel",
+    url: "https://github.com/DVfrontend",
     logo: "/icons/github.png",
   },
   {

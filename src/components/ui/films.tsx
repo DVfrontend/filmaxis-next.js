@@ -2,7 +2,7 @@
 
 import data from "@/data/film.json";
 import { useEffect, useState } from "react";
-import type { Film } from "@/types";
+import type { Film } from "@/types/filmTypes";
 import Link from "next/link";
 import Image from "next/image";
 

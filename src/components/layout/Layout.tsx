@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import { memo } from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import type { LayoutProps } from "@/types";
