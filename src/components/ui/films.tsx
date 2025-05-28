@@ -18,7 +18,7 @@ function Films() {
     <div>
       <h1 className="text-4xl font-semibold">Все Фильмы</h1>
       {films.map((films) => (
-        <Link href={films.href} key={films.id}>
+        <Link href={films.href} key={films.id} >
           <motion.div className="flex items-center my-2"
               initial={{ opacity: 0, x: -40 }}
               animate={{ opacity: 1, x: 0 }}
