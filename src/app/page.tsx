@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { memo } from 'react';
-import styles from '@/styles/page.module.scss';
-import Bg from '@/components/ui/bg';
+import { motion } from "framer-motion";
+import { memo } from "react";
+import styles from "@/styles/page.module.scss";
+import Bg from "@/components/ui/bg";
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <h1 style={{ color: 'white' }} className="text-4xl font-semibold">
+        <h1 style={{ color: "white" }} className="text-4xl font-semibold">
           Filmaxis
         </h1>
       </motion.div>
@@ -25,8 +25,8 @@ function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.6 }}
       >
-        Filmaxis — твой личный кино-портал, где мечты о бесконечном киномарафоне
-        становятся реальностью! 🎬
+        Filmaxis — your personal cinema portal where your dreams of endless
+        movie marathons come true! 🎬
       </motion.h2>
 
       <motion.div
@@ -42,11 +42,11 @@ function Home() {
         }}
       >
         {[
-          '✨ Более 1000 фильмов в коллекции, доступных в потрясающем качестве 4K — от культовой классики до новинок.',
-          '🍿 Удобный поиск по жанру, рейтингу и году выпуска: найди именно то, что нужно, всего за пару кликов.',
-          '🎥 Эксклюзивные подборки от кинокритиков и рекомендации на основе твоих предпочтений.',
-          '📱 Смотри где угодно: на телевизоре, ноутбуке или смартфоне — синхронизация на всех устройствах.',
-          '🌟 Еженедельные обновления: новые фильмы, трейлеры и интересные факты о киноиндустрии.',
+          "✨ Over 1,000 movies in our collection, available in stunning 4K quality — from cult classics to the latest releases.",
+          "🍿 Convenient search by genre, rating, and release year: find exactly what you need in just a couple of clicks.",
+          "🎥 Exclusive selections from film critics and recommendations based on your preferences.",
+          "📱 Watch anywhere: on your TV, laptop, or smartphone — with seamless synchronization across all devices.",
+          "🌟 Weekly updates: new films, trailers, and fascinating facts about the world of cinema.",
         ].map((text, i) => (
           <motion.div
             key={i}
@@ -65,11 +65,12 @@ function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.8, duration: 0.5 }}
       >
-        Filmaxis — это не просто сайт, это твой билет в мир кино, где каждый
-        кадр — это эмоция, а каждый фильм — история. 🎟️✨
+        Filmaxis isn&apos;t just a website — it&apos;s your ticket to the world
+        of cinema, where every frame is an emotion and every movie tells a
+        story. 🎟️✨
       </motion.p>
     </Bg>
   );
 }
 
-export default memo(Home)
+export default memo(Home);

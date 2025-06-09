@@ -1,52 +1,52 @@
 [
   {
     "id": 1,
-    "name": "Ежемесячная подписка",
+    "name": "Monthly Subscription",
     "price": 5.99,
     "currency": "$USD",
-    "description": "Полный доступ ко всем фильмам и сериалам. Списывается ежемесячно.",
+    "description": "Full access to all movies and series. Billed monthly.",
     "features": [
-      "Неограниченный просмотр",
-      "Поддержка HD и 4K",
-      "Отсутствие рекламы",
-      "Доступ к новым релизам",
-      "Просмотр на 2 устройствах одновременно"
+      "Unlimited streaming",
+      "Supports HD and 4K",
+      "Ad-free experience",
+      "Access to new releases",
+      "Watch on 2 devices simultaneously"
     ],
     "billingCycle": "monthly",
     "class": "bg-[#C0C0C0] text-black py-2 px-4 rounded-lg font-bold hover:bg-[#b0b0b0] transition"
   },
   {
     "id": 2,
-    "name": "Годовая подписка на 365 дней",
+    "name": "Annual Subscription (365 days)",
     "price": 99,
     "currency": "$USD",
-    "description": "Экономия 25%. Полный доступ ко всему контенту на 12 месяцев.",
+    "description": "Save 25%. Full access to all content for 12 months.",
     "features": [
-      "Неограниченный просмотр весь год",
-      "Поддержка HD и 4K",
-      "Отсутствие рекламы",
-      "Доступ к новым релизам",
-      "Просмотр на 4 устройствах одновременно",
-      "Скачивание фильмов для офлайн-просмотра",
-      "Приоритетный доступ к премьерам",
-      "Эксклюзивные бонусы и скидки",
-      "Бесплатные билеты на онлайн-мероприятия",
-      "Подарочный код для друга"
+      "Unlimited streaming for the whole year",
+      "Supports HD and 4K",
+      "Ad-free experience",
+      "Access to new releases",
+      "Watch on 4 devices simultaneously",
+      "Download movies for offline viewing",
+      "Priority access to premieres",
+      "Exclusive bonuses and discounts",
+      "Free tickets to online events",
+      "Gift code for a friend"
     ],
     "billingCycle": "yearly",
     "class": "bg-[#FFD700] text-black py-2 px-4 rounded-lg font-bold hover:bg-[#e6c200] transition"
   },
   {
     "id": 3,
-    "name": "Одноразовый доступ на 24 часа",
+    "name": "One-time 24-hour Access",
     "price": 14.99,
     "currency": "$USD",
-    "description": "Разовый платеж за доступ на 24 часа. Без подписки и автопродления.",
+    "description": "One-time payment for 24-hour access. No subscription or auto-renewal.",
     "features": [
-      "Неограниченный просмотр ",
-      "Поддержка HD ",
-      "Отсутствие рекламы ",
-      "Доступ к новым релизам"
+      "Unlimited streaming",
+      "Supports HD",
+      "Ad-free experience",
+      "Access to new releases"
     ],
     "billingCycle": "oneTime",
     "class": "bg-gray-300 text-black py-2 px-4 rounded-lg font-bold hover:bg-gray-400 transition"

@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "@/styles/common/bg.module.scss";
+import styles from "@/styles/bg.module.scss";
 import React, { useEffect, useState } from "react";
 
 const images: string[] = [

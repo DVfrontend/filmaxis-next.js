@@ -38,65 +38,55 @@ export default function About() {
   useEffect(() => {
     setSocials(socialsData);
   }, []);
+
   return (
-    <>
-      <h1 className="text-4xl font-semibold">Обо мне</h1>
-      <p>
-        Привет! Меня зовут Даниэл, я Frontend-разработчик, увлечённый созданием
-        современных и удобных пользовательских интерфейсов.
+    <div className="max-w-2xl mx-auto px-4 py-8">
+      <h1 className="text-4xl font-semibold mb-4">About Me</h1>
+      <p className="mb-4">
+        Hi! My name is Daniel, and I&apos;m a Frontend Developer passionate
+        about creating modern and user-friendly interfaces.
       </p>
 
-      <br></br>
-
-      <p>
-        Я специализируюсь на React и TypeScript, уверенно работаю с HTML, CSS,
-        SASS, Tailwind CSS, и инструментами вроде Next.js, Vite, Turbopack. Для
-        меня важно не просто &quot;сделать, чтобы работало&quot;, а создать
-        интерфейс, которым будет приятно и логично пользоваться.
+      <p className="mb-4">
+        I specialize in React and TypeScript and work confidently with HTML,
+        CSS, SASS, Tailwind CSS, and tools like Next.js, Vite, and Turbopack.
+        For me, it&apos;s not just about &quot;making it work&quot; but crafting
+        an interface that&apos;s pleasant and intuitive to use.
       </p>
 
-      <br></br>
-
-      <p>
-        Моя цель — постоянно расти, углубляться в технологии и совершенствовать
-        свои навыки, чтобы переход от Junior к Senior был не просто
-        формальностью, а результатом реального прогресса.
+      <p className="mb-4">
+        My goal is to keep growing, diving deeper into technology, and honing my
+        skills so that the journey from Junior to Senior is not just a formality
+        but a reflection of real progress.
       </p>
 
-      <br></br>
-
-      <p>
-        Я верю в силу чистого кода, продуманную архитектуру и грамотную работу с
-        Git. Люблю разбираться в сложных задачах, оптимизировать процессы и
-        доводить результат до блеска.
+      <p className="mb-4">
+        I believe in clean code, thoughtful architecture, and good Git
+        practices. I love tackling challenging problems, optimizing processes,
+        and polishing results to perfection.
       </p>
 
-      <br></br>
-
-      <p>
-        Разрабатываю проекты под личным брендом DV product — это мой способ
-        объединить качество, стиль и ответственность в одном имени.
+      <p className="mb-8">
+        I develop projects under my personal brand — DV product — as my way to
+        combine quality, style, and responsibility in one name.
       </p>
 
-      <br></br>
-
-      <h2 className="text-3xl">Контакт</h2>
-      <ul className="list-disc m-2 flex justify-center">
+      <h2 className="text-3xl font-semibold mb-4">Contact</h2>
+      <ul className="flex flex-wrap justify-center gap-6">
         {socials.map((social) => (
           <li key={social.id}>
-            <Link href={social.url}>
-              {social.logo && (
-                <Image
-                  src={social.logo}
-                  alt={social.name}
-                  width={40}
-                  height={40}
-                />
-              )}
+            <Link href={social.url} target="_blank" rel="noopener noreferrer">
+              <Image
+                src={social.logo}
+                alt={social.name}
+                width={40}
+                height={40}
+                className="hover:scale-110 transition-transform duration-300"
+              />
             </Link>
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }

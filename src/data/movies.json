@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Spider-Man: Homecoming 2017",
+    "description": "Peter Parker returns to his life as a student but faces the Vulture. With Tony Stark's help, he learns to be a hero.",
+    "href": "movies/spiderMan/",
+    "poster": "/images/films/spiderMan/image.png",
+    "fullDescription": "Peter Parker, back to his normal student life after the grand events with the Avengers, tries to balance school, his personal life, and his role as a superhero. However, when a new villain — the Vulture — threatens his city, Peter realizes that being a hero means making tough choices. With Tony Stark’s support, he begins to understand that with great power comes great responsibility and joins the fight for justice.",
+    "trailer": "https://www.youtube.com/embed/rk-dF1lIbIg"
+  },
+  {
+    "id": 2,
+    "name": "Interstellar 2014",
+    "description": "Cooper and a team of scientists travel through a wormhole in search of a new planet, facing challenges of time and love.",
+    "href": "movies/interstellar",
+    "poster": "/images/films/interstellar/image.png",
+    "fullDescription": "As Earth becomes uninhabitable, a team of explorers led by former NASA pilot Cooper travels through a wormhole to another galaxy. Their goal is to find a new planet for humanity. Along the way, the team faces the mysteries of time, gravity, and human emotions. It’s a story not only about space but also about the power of love between a father and daughter that can transcend any distance.",
+    "trailer": "https://www.youtube.com/embed/2LqzF5WauAw"
+  },
+  {
+    "id": 3,
+    "name": "Green Book 2018",
+    "description": "Tony becomes the driver for a black pianist. Against a backdrop of racism, a friendship forms that changes their lives.",
+    "href": "movies/greenBook/",
+    "poster": "/images/films/greenBook/image.png",
+    "fullDescription": "New York bouncer Tony Vallelonga is hired as a driver for black pianist Don Shirley for a tour through the American South in the 1960s. Their journey through racially charged states becomes a true test for both of them, full of conflicts, surprises, and deep conversations. Gradually, they build respect and a strong friendship that changes their views on life and themselves.",
+    "trailer": "https://www.youtube.com/embed/QkZxoko_HC0"
+  },
+  {
+    "id": 4,
+    "name": "Fast & Furious 7 2015",
+    "description": "Dominic and his team face the brother of their enemy. They face chases, explosions, and a farewell to Paul Walker.",
+    "href": "movies/FAF/",
+    "poster": "/images/films/FAF/image.png",
+    "fullDescription": "After defeating Owen Shaw, Dominic Toretto and his team must face a new enemy — Deckard Shaw, the brother of their fallen foe. Seeking revenge for his family, he begins hunting down the team. High-speed chases, dangerous missions, and a touching farewell to Brian await the heroes, symbolically closing one of the franchise’s chapters.",
+    "trailer": "https://www.youtube.com/embed/Skpu5HaVkOc"
+  },
+  {
+    "id": 5,
+    "name": "Inception 2010",
+    "description": "Cobb steals secrets from the subconscious in dreams, but now he must plant an idea in someone else's mind.",
+    "href": "movies/inception/",
+    "poster": "/images/films/inception/image.png",
+    "fullDescription": "Dominic Cobb is a skilled thief who can enter dreams and steal ideas. But his new job isn’t theft, it’s planting an idea in someone’s mind — inception. To succeed, Cobb and his team must navigate multilayered dreams where the line between reality and illusion blurs. And all of this — so that he can return to his children and redeem his past.",
+    "trailer": "https://www.youtube.com/embed/YoHD9XEInc0"
+  },
+  {
+    "id": 6,
+    "name": "The Matrix 1999",
+    "description": "Hacker Neo learns that reality is an illusion and joins the fight to free humanity.",
+    "href": "movies/matrix/",
+    "poster": "/images/films/matrix/image.png",
+    "fullDescription": "Programmer Thomas Anderson, who goes by the hacker alias Neo, discovers that his world is a virtual illusion created by machines to enslave humanity. He joins a group of rebels to uncover the truth and free people. On his path are choices between lies and reality, battles with system agents, and his transformation into the One.",
+    "trailer": "https://www.youtube.com/embed/vKQi3bBA1y8 "
+  },
+  {
+    "id": 7,
+    "name": "The Dark Knight 2008",
+    "description": "Batman faces the Joker, who spreads chaos in Gotham. The hero must make sacrifices.",
+    "href": "movies/darkKnight/",
+    "poster": "/images/films/darkKnight/image.png",
+    "fullDescription": "Batman, Commissioner Gordon, and District Attorney Harvey Dent join forces to rid Gotham of crime. However, the arrival of the mad genius Joker, who seeks to destroy order and spread chaos, threatens everything the heroes believe in. To save the city, Bruce Wayne must sacrifice his reputation and make a difficult moral choice.",
+    "trailer": "https://www.youtube.com/embed/EXeTwQWrcwY"
+  },
+  {
+    "id": 8,
+    "name": "Dune 2021",
+    "description": "Paul Atreides is drawn into a power struggle on a desert planet with a unique resource.",
+    "href": "movies/dune/",
+    "poster": "/images/films/dune/image.png",
+    "fullDescription": "Young Paul Atreides is pulled into a struggle for control over the desert planet Arrakis — the only source of a valuable resource called spice. After betrayal and the fall of his family, Paul joins the native Fremen, where he finds a new purpose. He must become a messiah to change the fate of an entire civilization and fulfill ancient prophecies.",
+    "trailer": "https://www.youtube.com/embed/n9xhJrPXop4"
+  },
+  {
+    "id": 9,
+    "name": "Avatar 2009",
+    "description": "On Pandora, a former Marine in an avatar body joins the natives in a battle for their world.",
+    "href": "movies/avatar/",
+    "poster": "/images/films/avatar/image.png",
+    "fullDescription": "Veteran Jake Sully gets a chance for a new life on the distant planet of Pandora, controlling an avatar body designed to interact with the native Na’vi people. As he bonds with the natives, he embraces their culture and becomes one of them. When Earth’s corporation threatens to destroy Pandora for its resources, Jake joins the Na’vi in their fight for their home.",
+    "trailer": "https://www.youtube.com/embed/5PSNL1qE6VY"
+  },
+  {
+    "id": 10,
+    "name": "Gladiator 2000",
+    "description": "General Maximus becomes a slave and gladiator to avenge his family and restore justice.",
+    "href": "movies/gladiator/",
+    "poster": "/images/films/gladiator/image.png",
+    "fullDescription": "General Maximus, once the beloved of the emperor, is betrayed, losing his family and being sold into slavery. As a gladiator, he rises from the arena to the top to take revenge on the usurper Commodus, who has taken the throne. A story of honor, loyalty, the strength of the spirit, and the path of a warrior who fights not only for himself but for justice.",
+    "trailer": "https://www.youtube.com/embed/P5ieIbInFpg"
+  }
+]

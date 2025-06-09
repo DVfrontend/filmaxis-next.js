@@ -1,16 +1,15 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
-import { motion } from 'framer-motion';
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 
 export default function NotFound() {
   const router = useRouter();
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.push('/main');
+      router.push("/main");
     }, 5000);
     return () => clearTimeout(timer);
   }, [router]);
@@ -21,15 +20,7 @@ export default function NotFound() {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6 }}
-      >
-        <Image
-          src="/404.svg"
-          alt="404"
-          width={400}
-          height={400}
-          className="bg-white rounded-3xl shadow-lg"
-        />
-      </motion.div>
+      ></motion.div>
 
       <motion.div
         initial={{ opacity: 0, y: 30 }}
