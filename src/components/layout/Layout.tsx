@@ -1,6 +1,6 @@
 import { memo } from "react";
-import Navbar from "./navbar";
-import Footer from "./footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import type { LayoutProps } from "@/types";
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {

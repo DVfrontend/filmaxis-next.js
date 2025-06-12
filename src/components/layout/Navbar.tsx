@@ -21,10 +21,8 @@ function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-20 backdrop-blur-md bg-[#1C1C1C]/70 border-b border-gray-700">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        {/* Логотип или название */}
-        <div className="text-xl font-bold text-white">FilmAxis</div>
 
-        {/* Ссылки */}
+        <div className="text-xl font-bold text-white">Filmaxis</div>
         <div className="flex gap-6">
           {nav.map(({ id, title, path }) => (
             <Link key={id} href={path} className="relative">

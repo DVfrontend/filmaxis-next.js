@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { memo } from "react";
 import styles from "@/styles/page.module.scss";
-import Bg from "@/components/ui/bg";
+import Bg from "@/components/ui/Bg";
 
 function Home() {
   return (

@@ -13,7 +13,7 @@ export type Film = {
   href: string;
   poster: string;
   fullDescription: string;
-  trailer: string;
+  trailer?: string;
 };
 
 export default function Main() {
